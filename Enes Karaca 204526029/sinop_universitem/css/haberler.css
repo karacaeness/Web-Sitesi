@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	width:100%;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+	margin:0px;
+	background-color: #fff;
+}
+
+
+/*burdan itibaren body iç kısmı degişen yer yeni sayfa*/
+
+
+.politika_ana_div{
+	width:100%px;
+	height:130px;
+	margin: auto;
+	background-color: #f5f5f5;
+	border:1px solid #f5f5f5;
+}
+.politika_govde{
+	width:1220px;
+	height:107px;
+	margin: auto;
+/*	border:1px solid #000;*/
+}
+.politika_yazi{
+	width:auto;
+	height:auto;
+	font-weight: 600;
+	font-size: 12.4px;
+	float:left;
+	margin-top:33px;
+	color: #df922f;
+/*	border:1px solid #000;*/
+}
+.ev{
+	width:13px;
+	height:13px;
+	float:left;
+	margin-top:8px;
+	/*border:1px solid #000;*/
+}
+.ev:hover{
+	background-image: url("resim/ev_home.png");
+	background-repeat: no-repeat;
+}
+.yan_ok_evin{
+	width:13px;
+	height:13px;
+	float:left;
+	margin-left: 3px;
+	margin-top:8px;
+	color:#c6c6c6;
+/*	border:1px solid #000;*/
+}
+.uluslararasi_yazi{
+	width:auto;
+	height:20px;
+	float:left;
+	margin-top:8px;
+	font-weight: 500;
+	font-size: 12px;
+	color: #000;
+	opacity: 0.6;
+	cursor:pointer;
+/*	border:1px solid #000;*/
+}
+.uluslararasi_yazi:hover{
+	color: #df922f;
+	opacity: 0.9;
+}
+.haber_govde_ana{
+	width:1220px;
+	height:auto;
+	margin: auto;
+/*	border:1px solid #000;*/
+}
+.haber_sol_div_ana{
+	width:840px;
+	height:auto;
+	float:left;
+	margin-top:50px;
+	border-right: 1px solid #e9e9e9;
+}
+.saat_dosya_div{
+	width:840px;
+	height:15px;
+	float:left;
+/*	border:1px solid #000;*/
+}
+.saat_icon{
+	width:110px;
+	height:15px;
+	float:left;
+	color: #777;
+	font-size:12px;
+	margin-right: 5px;
+/*	border:1px solid #000;*/
+}
+.haber_icon{
+	width:110px;
+	height:15px;
+	float:left;
+	color: #777;
+	font-size:12px;
+	cursor:pointer;
+/*	border:1px solid #000;*/
+}
+.haber_icon:hover{
+	color: #13aff0;
+
+}
+.icerik{
+	width:840px;
+	height:auto;
+	float:left;
+	line-height: 1.7;
+	margin-top:25px;
+	color: #000;
+	font-size: 13.4px;
+	font-weight: 600;
+/*	border:1px solid #000;*/
+}
+.resim_buyuk{
+	width:840px;
+	height:555px;
+	float:left;
+	margin-top:25px;
+/*	border:1px solid #000;*/
+}
+.resim_alti_yazi{
+	width:840px;
+	height:auto;
+	float:left;
+	line-height: 1.7;
+	margin-top:10px;
+	font-size: 14px;
+	font-weight: 600;
+/*	border:1px solid #000;*/
+}
+.haber_sag_div_ana{
+	width:340px;
+	height:620px;
+	float:right;
+	margin-top:50px;
+/*	border:1px solid #000;*/
+}
+.ara_input{
+	display: inline-block;
+    min-height: 40px;
+/*  width: 100%;*/
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 6px 12px;
+    vertical-align: middle;
+    background-color: transparent;
+	margin-top: -4px;
+	margin-left: 18px;
+    color: #333;
+	border-radius: 5px;
+	transition: all .3s ease;
+/*  border: 1px solid #ddd;*/
+}
+.e_mail{
+	width:300px;
+	height:30px;
+}
+.mavi_iconum{
+	width:auto;
+	height:15px;
+	float: left;
+	font-size: 12px;
+	font-weight: 400;
+	color:#333333;
+	margin-left: 30px;
+	margin-top: 20px;
+/*	border:1px solid #000;*/
+}
+.kategori_input{
+	display: inline-block;
+    min-height: 40px;
+/*  width: 100%;*/
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 6px 12px;
+    vertical-align: middle;
+    background-color: transparent;
+	margin-top: 10px;
+	margin-left: 18px;
+    color: #333;
+	border-radius: 5px;
+	transition: all .3s ease;
+/*  border: 1px solid #ddd;*/
+}
+.kategori{
+	width:300px;
+	height:30px;
+}
+.tum_faliyetler_input{
+	display: inline-block;
+    min-height: 40px;
+/*  width: 100%;*/
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 6px 12px;
+    vertical-align: middle;
+    background-color: transparent;
+	margin-top: 10px;
+	margin-left: 18px;
+    color: #333;
+	border-radius: 5px;
+	transition: all .3s ease;
+/*  border: 1px solid #ddd;*/
+}
+.tum_faliyet{
+	width:300px;
+	height:30px;
+}
+.sag_yazilar{
+	width:306px;
+	height:auto;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	border-top: 1px solid #e9e9e9;
+}
+.sag_yazilar_ic{
+	width:auto;
+	height:auto;
+	float: left;
+/*	margin-left: 30px;*/
+	margin-top: 10px;
+	color:#333333;
+	font-weight: 200;
+	font-size:12px;
+	cursor: pointer;
+/*	border: 1px solid #000;*/
+}
+.sag_yazilar_ic:hover{
+	color: #df922f;
+}
+.sag_yazilar_ic_tarihh{
+	width:100px;
+	height:auto;
+/*	float: right;*/
+/*	margin-left: 30px;*/
+	color:#000;
+/*	margin-left:60px;*/
+	font-weight: 200;
+	font-size:13px;
+/*	border: 1px solid #000;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

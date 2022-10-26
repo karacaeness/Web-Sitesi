@@ -1,0 +1,1667 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	width:100%;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+	margin:0px;
+	background-color: #fff;
+}
+a{text-decoration: none;
+	color:#000;
+}
+.hizalama_bitir{clear: both;}
+.banner_ust_govde
+{
+	width:1220px;
+	height:35px;
+	margin: auto;
+	/*border:1px solid red;*/
+}
+.banner_ust{
+	width: 100%px;
+	height:36px;
+	margin: auto;
+	background-color:#df922f;
+/*	border:1px solid #000;*/
+	
+}
+.bayrak{
+	width:16px;
+	height:11px;
+	float:left;
+	margin-top: 10px;
+	/*border:1px solid #000;*/
+}
+.turkce{
+	width:16px;
+	height:11px;
+	float:left;
+	margin-top: 10px;
+	font-family:inherit;
+	font-size: 13.50px;
+	color:#fff;
+}
+.asagiok{
+	width:7px;
+	height:8px;
+	float:left;
+	margin-top:7px;
+	margin-left:44px;
+/*	border:1px solid #000;*/
+}
+.ataturk{
+	width:77px;
+	height:34px;
+	float:right;
+	/*border:1px solid #000;*/
+}
+.banner_alt{
+	width: 100%px;
+	height:85px;
+	margin: auto;
+	background-color:#ffffff;
+	/*border:1px solid #000;*/
+}
+.banner_alt_govde
+{
+	width:1220px;
+	height:84px;
+	margin: auto;
+	/*border:1px solid #000;*/
+}
+.logo_ve_yazi_div{
+	width:254px;
+	height:80px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.logo{
+	width:80px;
+	height:80px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.sinop_uni_yazi{
+	width:158px;
+	height:64px;
+	float:left;
+	margin-top:15px;
+	font-weight: bold;
+	font-size:22px;
+	color: #333;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.sinop_uni_yazi:hover{
+	color:#dd9933;
+}
+.banner_menu_yazilar_div{
+	width:755px;
+	height:80px;
+	float:left;
+/*	border:1px solid #000;*/
+}
+.menuler:hover{
+	color:#dd9933;
+}
+.menuler{
+	width:auto;
+	height:auto;
+	padding:8px;
+	font-weight: 700px;
+	margin-top:30px;
+	font-family: Titillium Web;
+	font-size:13px;
+	color: #464646;
+	float:left;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.akademik_yazi:hover{
+	color:#dd9933;
+}
+.akademik_yazi{
+	width:70px;
+	height:19px;
+	padding:8px;
+	font-weight: 700px;
+	margin-top:30px;
+	font-family: Titillium Web;
+	font-size:13px;
+	color: #464646;
+	float:left;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.idari_yazi:hover{
+	color:#dd9933;
+}
+.idari_yazi{
+	width:30px;
+	height:19px;
+	padding:8px;
+	font-weight: 700px;
+	margin-top:30px;
+	font-family: Titillium Web;
+	font-size:13px;
+	color: #464646;
+	float:left;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.ogrenci_yazi:hover{
+	color:#dd9933;
+}
+.ogrenci_yazi{
+	width:55px;
+	height:19px;
+	padding:8px;
+	font-weight: 700px;
+	margin-top:30px;
+	font-family: Titillium Web;
+	font-size:13px;
+	color: #464646;
+	float:left;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.aday_ogrenci_yazi:hover{
+	color:#dd9933;
+}
+.aday_ogrenci_yazi{
+	width:100px;
+	height:19px;
+	padding:8px;
+	font-weight: 700px;
+	margin-top:30px;
+	font-family: Titillium Web;
+	font-size:13px;
+	color: #464646;
+	float:left;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.arastirma_yazi:hover{
+	color:#dd9933;
+}
+.arastirma_yazi{
+	width:75px;
+	height:19px;
+	padding:8px;
+	font-weight: 700px;
+	margin-top:30px;
+	font-family: Titillium Web;
+	font-size:13px;
+	color: #464646;
+	float:left;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.kalite_yazi:hover{
+	color:#dd9933;
+}
+.kalite_yazi{
+	width:50px;
+	height:19px;
+	padding:8px;
+	font-weight: 700px;
+	margin-top:30px;
+	font-family: Titillium Web;
+	font-size:13px;
+	color: #464646;
+	float:left;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.uc_cizgi{
+	width:14px;
+	height:14px;
+	float:left;
+	margin-top:40px;
+	padding:3px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-image: url("../images/uc_cizgi.png");
+	/*border:1px solid #000;*/
+}
+.uc_cizgi:hover{
+	background-repeat: no-repeat;
+	background-image: url("../images/uc_cizgi_hover.png");
+}
+.arama_butonu{
+	width:13px;
+	height:13px;
+	float:left;
+	margin-left: 8px;
+	margin-top:40px;
+	padding:4px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-image: url("../images/buyutec.png");
+/*	border:1px solid #000;*/
+}
+.arama_butonu:hover{
+	background-repeat: no-repeat;
+	background-image: url("../images/buyutec_hover.png");
+}
+.ucgen_kirmizi{
+	width:50px;
+	height:50px;
+	float:left;
+	padding:4px;
+	margin-left: 67px;
+	margin-top:16px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.yuvarlak_beyaz{
+	width:50px;
+	height:50px;
+	float:left;
+	padding:4px;
+	margin-top:16px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.slider_genel_div{
+	width:100%;
+	height:720px;
+}
+.slider_resim_div{
+	width:100%px;
+	height:720px;
+	margin:auto;
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-image: url("../images/slider.jpg");
+	/*border:1px solid #000;*/
+}
+.renkli_kutular_govde{
+	width:1220px;
+	height:107px;
+	margin: auto;
+/*	border:1px solid #000;*/
+}
+.renkli_kutu:hover{
+	opacity: 0.7;
+	background-color: #f08123;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+.renkli_kutu{
+	width:124px;
+	height:37px;
+	margin-top:35px;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+	float:left;
+	cursor:pointer;
+	background-color: #f08123;
+	/*border:1px solid #000;*/
+}
+.renkli_foto{
+	width:auto;
+	height:auto;
+	margin-top:12px;
+	margin-left:5px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.ebys_giris_yazi{
+	width:auto;
+	height:15px;
+	float:left;
+	font-family: Titillium Web;
+	margin-top:10px;
+	margin-left:10px;
+	text-align: center;
+	color: #ffffff;
+	text-align: center;
+	/*border:1px solid #000;*/
+}
+.renkli_kutu_2:hover{
+	opacity: 0.7;
+	background-color: #d80b8c;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+.renkli_kutu_2{
+	width:124px;
+	height:37px;
+	margin-top:35px;
+	margin-left:12px;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+	float:left;
+	cursor:pointer;
+	background-color: #d80b8c;
+	/*border:1px solid #000;*/
+}
+.renkli_foto_2{
+	width:auto;
+	height:auto;
+	margin-top:12px;
+	margin-left:3px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.ebys_giris_yazi_2{
+	width:100px;
+	height:15px;
+	float:left;
+	font-family: Titillium Web;
+	margin-top:10px;
+	margin-left:5px;
+	text-align: center;
+	color: #ffffff;
+	text-align: center;
+	/*border:1px solid #000;*/
+}
+.renkli_kutu_3:hover{
+	opacity: 0.7;
+	background-color: #00abbd;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+.renkli_kutu_3{
+	width:124px;
+	height:37px;
+	margin-top:35px;
+	margin-left:12px;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+	float:left;
+	cursor:pointer;
+	background-color: #00abbd;
+	/*border:1px solid #000;*/
+}
+.renkli_foto_3{
+	width:auto;
+	height:auto;
+	margin-top:12px;
+	margin-left:4px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.ebys_giris_yazi_3{
+	width:100px;
+	height:15px;
+	float:left;
+	font-family: Titillium Web;
+	margin-top:10px;
+	margin-left:1px;
+	text-align: center;
+	color: #ffffff;
+	text-align: center;
+	/*border:1px solid #000;*/
+}
+.renkli_kutu_4:hover{
+	opacity: 0.7;
+	background-color: #23A455;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+.renkli_kutu_4{
+	width:124px;
+	height:37px;
+	margin-top:35px;
+	margin-left:12px;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+	float:left;
+	cursor:pointer;
+	background-color: #23A455;
+	/*border:1px solid #000;*/
+}
+.renkli_foto_4{
+	width:auto;
+	height:auto;
+	margin-top:11px;
+	margin-left:4px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.ebys_giris_yazi_4{
+	width:100px;
+	height:15px;
+	float:left;
+	font-family: Titillium Web;
+	margin-top:10px;
+	margin-left:2px;
+	text-align: center;
+	color: #ffffff;
+	text-align: center;
+	/*border:1px solid #000;*/
+}
+.renkli_kutu_5:hover{
+	opacity: 0.7;
+	background-color: #23A455;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+.renkli_kutu_5{
+	width:124px;
+	height:37px;
+	margin-top:35px;
+	margin-left:12px;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+	float:left;
+	cursor:pointer;
+	background-color: #0EB7F3;
+	/*border:1px solid #000;*/
+}
+.renkli_foto_5{
+	width:auto;
+	height:auto;
+	margin-top:11px;
+	margin-left:4px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.ebys_giris_yazi_5{
+	width:100px;
+	height:15px;
+	float:left;
+	font-family: Titillium Web;
+	margin-top:10px;
+	margin-left:2px;
+	text-align: center;
+	color: #ffffff;
+	text-align: center;
+	/*border:1px solid #000;*/
+}
+.renkli_kutu_6:hover{
+	opacity: 0.7;
+	background-color: #A60ADB;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+.renkli_kutu_6{
+	width:124px;
+	height:37px;
+	margin-top:35px;
+	margin-left:12px;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+	float:left;
+	cursor:pointer;
+	background-color: #A60ADB;
+	/*border:1px solid #000;*/
+}
+.renkli_foto_6{
+	width:auto;
+	height:auto;
+	margin-top:11px;
+	margin-left:4px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.ebys_giris_yazi_6{
+	width:auto;
+	height:15px;
+	float:left;
+	font-family: Titillium Web;
+	margin-top:10px;
+	margin-left:15px;
+	text-align: center;
+	color: #ffffff;
+	text-align: center;
+	/*border:1px solid #000;*/
+}
+.renkli_kutu_7:hover{
+	opacity: 0.7;
+	background-color: #003FC5;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+.renkli_kutu_7{
+	width:124px;
+	height:37px;
+	margin-top:35px;
+	margin-left:12px;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+	float:left;
+	cursor:pointer;
+	background-color: #003FC5;
+	/*border:1px solid #000;*/
+}
+.renkli_foto_7{
+	width:auto;
+	height:auto;
+	margin-top:11px;
+	margin-left:4px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.ebys_giris_yazi_7{
+	width:auto;
+	height:15px;
+	float:left;
+	font-family: Titillium Web;
+	margin-top:10px;
+	margin-left:20px;
+	text-align: center;
+	color: #ffffff;
+	text-align: center;
+	/*border:1px solid #000;*/
+}
+.renkli_kutu_8:hover{
+	opacity: 0.7;
+	background-color: #BC1D6B;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+.renkli_kutu_8{
+	width:127px;
+	height:37px;
+	margin-top:35px;
+	margin-left:12px;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+	float:left;
+	cursor:pointer;
+	background-color: #BC1D6B;
+	/*border:1px solid #000;*/
+}
+.renkli_foto_8{
+	width:auto;
+	height:auto;
+	margin-top:11px;
+	margin-left:4px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.ebys_giris_yazi_8{
+	width:103px;
+	height:15px;
+	float:left;
+	font-family: Titillium Web;
+	margin-top:10px;
+	margin-left:0px;
+	text-align: center;
+	color: #ffffff;
+	text-align: center;
+	/*border:1px solid #000;*/
+}
+.renkli_kutu_9:hover{
+	opacity: 0.7;
+	background-color: #f08123;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+.renkli_kutu_9{
+	width:124px;
+	height:37px;
+	margin-top:35px;
+	margin-left:12px;
+	text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+	float:left;
+	cursor:pointer;
+	background-color: #286580;
+	/*border:1px solid #000;*/
+}
+.renkli_foto_9{
+	width:auto;
+	height:auto;
+	margin-top:11px;
+	margin-left:4px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.ebys_giris_yazi_9{
+	width:auto;
+	height:15px;
+	float:left;
+	font-family: Titillium Web;
+	margin-top:10px;
+	margin-left:11px;
+	text-align: center;
+	color: #ffffff;
+	text-align: center;
+	/*border:1px solid #000;*/
+}
+.haber_duyuru_govde{
+	width:1220px;
+	height:auto;
+	margin: auto;
+	margin-top: 10px;
+/*	border:1px solid #000;*/
+}
+.haberler_div{
+	width:822px;
+	height:830px;
+	float:left;
+/*	border:1px solid #000;*/
+}
+.haberler_yazi{
+	width:822px;
+	border-bottom:1px solid #d8d8d8;
+	height:auto;
+	float:left;
+	padding-bottom: 5px;
+	font-family: "Open Sans",sans-serif;
+	color: #474747;
+    font-size: 20px;
+	font-weight: bold;
+	/*border:1px solid #000;*/
+	font-size: 18px;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-style: inherit;
+	margin-bottom: 20px;
+    font-weight: 700;
+}
+.h_div1{
+	width:821px;
+	height: 176px;
+	border-bottom: 1px solid #d8d8d8;
+}
+.h_div1_ic{
+	width:555px;
+	height: 145px;
+	float:left;
+	margin-left:25px;
+	margin-top:13px;
+/*	border:1px solid #000;*/
+}
+.haberler_foto1{
+	width:220px;
+	height: 145px;
+	float:left;
+	margin-top:13px;
+	cursor: pointer;
+	/*border:1px solid #000;*/
+}
+.h_yazi_1{
+	width:auto;
+	height: auto;
+	float:left;
+	color: #454545;
+	font-size: 14px;
+	font-weight: 700;
+	cursor:pointer;
+/*	border:1px solid #000;*/
+}
+.h_yazi_1:hover{
+	color:#df922e;
+}
+.tarih_1{
+	width:78px;
+	height: 16px;
+	font-size: 10px;
+    font-weight: 750;
+	margin-top:10px;
+	color:#df922e;
+/*	border:1px solid #000;*/
+}
+.haber_metin_1{
+	width:550px;
+	height: 50px;
+	margin-top:15px;
+	font-size: 12.5px;
+    font-weight: 500;
+    color: #303030;
+/*	border:1px solid #000;*/
+}
+.haberler_foto2{
+	width:220px;
+	height: 127px;
+	float:left;
+	margin-top:13px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.haberler_foto3{
+	width:220px;
+	height: 146px;
+	float:left;
+	margin-top:13px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.haberler_foto4{
+	width:220px;
+	height: 134px;
+	float:left;
+	margin-top:13px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+
+.tum_haberler_yazi_div{
+	width:135px;
+	height: 30px;
+	float:right;
+	margin-top:5px;
+	margin-right:20px;
+	background-color: #e0932f;
+	border-radius:15px;
+	cursor:pointer;
+	border:1px solid #e0932f;
+}
+.tum_haberler_yazi_div:hover{
+	background-color: #818a91;
+	color: #333;
+	border:1px solid #818a91;
+}
+.tum_haberler_yazi{
+	width:auto;
+	height:auto;
+	color: #ffffff;
+	font-size: 12px;
+    font-weight: 400;
+	text-align: center;
+	margin:auto;
+	margin-top:7px;
+	cursor:pointer;
+/*	border:1px solid #000;*/
+}
+.duyurular_div{
+	width:360px;
+	height:830px;
+	margin-left:20px;
+	float:left;
+/*	border:1px solid #000;*/
+}
+.duyurular_yazi{
+	width:354px;
+	border-bottom:1px solid #d8d8d8;
+	height:auto;
+	float:left;
+	padding-bottom: 5px;
+	font-family: "Open Sans",sans-serif;
+	color: #474747;
+    font-size: 20px;
+	font-weight: bold;
+	/*border:1px solid #000;*/
+	font-size: 17px;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-style: inherit;
+	margin-bottom: 20px;
+    font-weight: 700;
+}
+.duyuru_div_1{
+	width:355px;
+	height: 145px;
+	float:left;
+	border-bottom:1px solid #d8d8d8;;
+}
+.tarih_div1{
+	width:60px;
+	height: 68px;
+	float:left;
+	margin-top:12px;
+	border-right:1px solid #d8d8d8;
+}
+.tarih_ic_div1{
+	width:65px;
+	height: 29px;
+	float:left;
+	font-size: 28px;
+    font-weight: 700;
+	text-align: center;
+	color: #df922e;
+	/*border:1px solid #000;*/
+}
+.tarih_ic_div2{
+	width:65px;
+	height: 20px;
+	float:left;
+	font-size: 12px;
+    font-weight: 600;
+	text-align: center;
+	color: #df922e;
+	margin-top:3px;
+/*	border:1px solid #000;*/
+}
+.tarih_ic_div3{
+	width:65px;
+	height: 19px;
+	float:left;
+	font-size: 15px;
+    font-weight: 700;
+	text-align: center;
+	color: #df922e;
+	margin-top:-1px;
+/*	border:1px solid #000;*/
+}
+.duyuru_yazi_div1{
+	width:272px;
+	height: auto;
+	float:left;
+	margin-left:11px;
+/*	border:1px solid #000;*/
+}
+.duyuru_yazi_div_ic1{
+	width:266px;
+	height: auto;
+	font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding-top: 14px;
+    color: #454545;
+	cursor:pointer;
+/*	border:1px solid #000;*/
+}
+.duyuru_yazi_div_ic1:hover{
+	color:#df922e;
+}
+.duyuru_yazi_div_ic2{
+	width:266px;
+	height: auto;
+	font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding-top: 2px;
+	opacity: 0.9;
+    color: #303030;
+/*	border:1px solid #000;*/
+}
+.tum_duyurular_yazi_div{
+	width:135px;
+	height: 30px;
+	float:right;
+	margin-right:20px;
+	margin-top:7px;
+	background-color:  #d8d8d8;
+	border-radius:15px;
+	cursor:pointer;
+	border:1px solid #d8d8d8;
+}
+.tum_duyurular_yazi_div:hover{
+	background-color: #e0932f;
+	color: #fff;
+	border:1px solid #e0932f;
+}
+.tum_duyurular_yazi{
+	width:auto;
+	height:auto;
+	color: #454545;
+	font-size: 12px;
+    font-weight: 400;
+	text-align: center;
+	margin:auto;
+	margin-top:7px;
+	cursor:pointer;
+/*	border:1px solid #000;*/
+}
+.etkinlik_ana_div{
+	width:100%px;
+	height: 420px;
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+    border-color: #d8d8d8;
+	background-image: url("../images/etkinilik_arka_plan.jpg");
+}
+.etkinlik_govde{
+    width:1220px;
+	height:370px;
+	margin: auto;
+	margin-top:40px;
+/*	border:1px solid #000;*/
+}
+.etkinilkler_yazi{
+	width:1219px;
+	height:30px;
+	font-weight: 700;
+	color: #474747;
+    font-size: 18px;
+	border-bottom:1px solid #d8d8d8;
+}
+.etkinlik_ic{
+	width:1215px;
+	height: 290px;
+	margin:auto;
+	margin-top:35px;
+/*	border:1px solid #000;*/
+}
+
+.etkinlik_div_1{
+	width:385px;
+	height: 110px;
+	float:left;
+	margin-bottom: 14px;
+/*	border:1px solid #000;*/
+}
+.etkinlik_div_2{
+	width:385px;
+	height: 110px;
+	float:left;
+	margin-left: 25px;
+	margin-bottom: 14px;
+/*	border:1px solid #000;*/
+}
+.etkinlik_div_3{
+	width:385px;
+	height: 110px;
+	float:right;
+	margin-bottom: 14px;
+/*	border:1px solid #000;*/
+}
+.etk_tarih_div1{
+	width:60px;
+	height: 68px;
+	float:left;
+	margin-top:12px;
+	border-right:1px solid #d8d8d8;
+}
+.etk_tarih_ic_div1{
+	width:65px;
+	height: 29px;
+	float:left;
+	font-size: 28px;
+    font-weight: 700;
+	text-align: center;
+	color: #df922e;
+	/*border:1px solid #000;*/
+}
+.etk_tarih_ic_div2{
+	width:65px;
+	height: 20px;
+	float:left;
+	font-size: 12px;
+    font-weight: 600;
+	text-align: center;
+	color: #df922e;
+	margin-top:3px;
+/*	border:1px solid #000;*/
+}
+.etk_tarih_ic_div3{
+	width:65px;
+	height: 19px;
+	float:left;
+	font-size: 15px;
+    font-weight: 700;
+	text-align: center;
+	color: #df922e;
+	margin-top:-1px;
+/*	border:1px solid #000;*/
+}
+.etkinlik_yazi_div1{
+	width:300px;
+	height: auto;
+	float:left;
+	margin-left:11px;
+/*	border:1px solid #000;*/
+}
+.etkinlik_yazi_div_ic1{
+	width:290px;
+	height: auto;
+	font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding-top: 14px;
+    color: #454545;
+	cursor:pointer;
+/*	border:1px solid #000;*/
+}
+.etkinlik_yazi_div_ic2{
+	width:290px;
+	height: auto;
+	font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding-top: 2px;
+	opacity: 0.9;
+    color: #303030;
+/*	border:1px solid #000;*/
+}
+.tum_etkinlikler_yazi_div{
+	width:135px;
+	height: 30px;
+	float:right;
+	color:#fff;
+	margin-right:20px;
+	background-color: #e0932f;
+	border-radius:15px;
+	cursor:pointer;
+	border:1px solid #e0932f;
+}
+.tum_etkinlikler_yazi_div:hover{
+	background-color: #818a91;
+	color: #000;
+	border:1px solid #818a91;
+}
+.tum_etkinlikler_yazi{
+	width:auto;
+	height:auto;
+	color: #ffffff;
+	font-size: 12px;
+    font-weight: 400;
+	text-align: center;
+	margin:auto;
+	margin-top:7px;
+	cursor:pointer;
+/*	border:1px solid #000;*/
+}
+.etkinlik_takvimi_govde{
+	width:1220px;
+	height:540px;
+	margin: auto;
+	margin-top:40px;
+/*	border:1px solid #000;*/
+}
+.etkinlik_yazi{
+	width:1218px;
+	height:32px;
+	color: #474747;
+    font-size: 17.5px;
+    font-weight: 500;
+    font-style: normal;
+	border-bottom:1px solid #d8d8d8;
+}
+.etkinlik_resimler_div{
+	width:1215px;
+	height:394px;
+	margin: auto;
+	margin-top:22px;
+/*	border:1px solid #000;*/
+}
+.resim_div{
+	width:290px;
+	height:384px;
+	cursor:grab;
+	float: left;
+	margin-right:5px;
+/*	border:1px solid #000;*/
+}
+.resim1{
+	width:224px;
+	height:316px;
+	margin:auto;
+	cursor:pointer;
+/*	border:1px solid #000;*/
+}
+.resim_alti_yazi1{
+	width:auto;
+	height:auto;
+	margin-top: 10px;
+	text-align: center;
+	color:#454545;
+	font-size:12px;
+	font-weight: bold;
+	cursor:pointer;
+/*	border:1px solid #000;*/
+}
+.resim_alti_yazi1:hover{
+	color:#007cba;
+}
+.resim_alti_yazi2{
+	width:auto;
+	height:auto;
+	margin-top: 5px;
+	text-align: center;
+	color:#454545;
+	font-size:14px;
+	/*font-weight: bold;*/
+	opacity: 0.8;
+/*	border:1px solid #000;*/
+}
+.tum_etkinlik_takvimi_yazi_div{
+	width:155px;
+	height: 30px;
+	float:right;
+	color:#fff;
+	margin-right:20px;
+	background-color: #e0932f;
+	border-radius:15px;
+	cursor:pointer;
+	border:1px solid #e0932f;
+}
+.tum_etkinlik_takvimi_yazi_div:hover{
+	background-color: #818a91;
+	color: #000;
+	border:1px solid #818a91;
+}
+.tum_etkinlik_takvimi_yazi{
+	width:auto;
+	height:auto;
+	color: #ffffff;
+	font-size: 12px;
+    font-weight: 400;
+	text-align: center;
+	margin:auto;
+	margin-top:7px;
+	cursor:pointer;
+/*	border:1px solid #000;*/
+}
+.kep_atma_ogrenciler{
+	width:100%px;
+	height:450px;
+	margin:auto;
+	background-image: url("../images/kep_atma_ogrenciler.jpg");
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*	border:1px solid #000;*/
+}
+.kep_atma_govde{
+    width:1220px;
+	height:200px;
+	margin: auto;
+	margin-top:40px;
+/*	border:1px solid #000;*/
+}
+.kep_atma_yazi{
+	width:1208px;
+	height:88px;
+	color: #474747;
+	margin:auto;
+	text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+	font-style: normal;
+/*	border:1px solid #000;*/
+}
+.buton1_fotograf_galeri{
+	width:196px;
+	height:55px;
+	float:left;
+	margin-left:390px;
+	margin-top:30px;
+	cursor:pointer;
+	background-color: #c45358;
+    border-radius: 50px 50px 50px 50px;
+	box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+/*	border:1px solid #000;*/
+}
+.buton1_fotograf_galeri:hover{
+	background-color: #fff;
+}
+.kep_atma_resim1{
+	width:25px;
+	height:20px;
+	float:left;
+	margin-left:30px;
+	margin-top:9px;
+	cursor:pointer;
+	/*border:1px solid #000;*/
+}
+.kep_atma_resim1:hover{
+	width:25px;
+	height:20px;
+	background-image: url("../images/icon_resim1_hover.png");
+}
+.fotograf_galeri_yazi{
+	width:auto;
+	height:40px;
+	float:left;
+	margin-left:8px;
+	margin-top:5px;
+	color: #ffffff;
+	font-size: 18px;
+/*	border:1px solid #000;*/
+}
+.fotograf_galeri_yazi:hover{
+	color:#c45358;
+}
+.buton2_fotograf_galeri{
+	width:162px;
+	height:55px;
+	float:left;
+	margin-left:30px;
+	margin-top:30px;
+	cursor:pointer;
+	background-color: #df835e;
+    border-radius: 50px 50px 50px 50px;
+	box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+/*	border:1px solid #000;*/
+}
+.buton2_fotograf_galeri:hover{
+	background-color:#fff;
+}
+.kep_atma_resim2{
+	width:25px;
+	height:20px;
+	float:left;
+	margin-left:30px;
+	margin-top:9px;
+	cursor:pointer;
+/*	border:1px solid #000;*/
+}
+.kep_atma_resim2:hover{
+	width:25px;
+	height:20px;
+	background-image: url("../images/icon_resim2_hover.png");
+}
+.fotograf_galeri_yazi1{
+	width:auto;
+	height:40px;
+	float:left;
+	margin-left:8px;
+	margin-top:5px;
+	color: #ffffff;
+	font-size: 18px;
+/*	border:1px solid #000;*/
+}.fotograf_galeri_yazi1:hover{
+	color:#df835e;
+}
+.oynayan_ana_div{
+	width:100%px;
+	height:290px;
+	margin: auto;
+	background-color: #ffffff;
+	background-image: url("../images/oynayan_ana_div_resim.jpg");
+/*	border:1px solid #000;*/
+}
+.oynayan_sayilar_govde{
+	width:1220px;
+	height:240px;
+	margin: auto;
+/*	margin-top:60px;*/
+/*	border:1px solid #000;*/
+}
+.oynayan_sayilar_div{
+	width:255px;
+	height:129px;
+	float:left;
+	margin-left:20px;
+	margin-top:40px;
+	padding:10px;
+/*	border:1px solid #000;*/
+}
+.oynayan_resim{
+	width:255px;
+	height:48px;
+	text-align: center;
+	margin:auto;
+/*	border:1px solid #000;*/
+}
+.oynayan_yazi{
+	width:255px;
+	height:16px;
+	color: #7e7e7e;
+    font-size: 16px;
+	margin:auto;
+    font-weight: 400;
+	text-align: center;
+/*	border:1px solid #000;*/
+}
+.oynayan_yazi1{
+	width:113px;
+	height:auto;
+	color: #464646;
+	margin:auto;
+	text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+/*	border:1px solid #000;*/
+}
+.oynayan_alt_yazi{
+	width:370px;;
+	height:22px;
+	color:#000;
+	font-size: 11px;
+    font-weight: 600;
+	margin:auto;
+	text-align: center;
+/*	border:1px solid #000;*/
+}
+.turuncu_ana_div{
+    width: 100%px;
+	height:96px;
+	margin: auto;
+	background-color: #df922f;
+/*	border:1px solid #000;*/
+}
+.turuncu_govde{
+	width:1220px;
+	height:91px;
+	margin: auto;
+/*	border:1px solid #000;*/
+}
+.turuncu_yazi1{
+	width:212px;
+	height:26px;
+	float:left;
+	margin-left: 350px;
+	margin-top:30px;
+	font-size:20px;
+	font-weight: 700;
+	color: #ffffff;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.turuncu_fotograf{
+	width:76px;
+	height:76px;
+	margin-left:20px;
+	margin-top: 8px;
+	float:left;
+/*	border:1px solid #000;*/
+}
+.turuncu_yazi2{
+	width:270px;
+	height:30px;
+	float:left;
+	margin-left:20px;
+	margin-top:30px;
+	font-size:14px;
+	font-weight: 600;
+	font-style: italic;
+	color: #ffffff;
+/*	border:1px solid #000;*/
+}
+.fother_ana_div{
+	width: 100%px;
+	height:470px;
+	margin: auto;
+	background-color: #464646;
+/*	border:1px solid #000;*/
+}
+.fother_govde{
+	width:1220px;
+	height:410px;
+	margin: auto;
+/*	margin-top:30px;*/
+/*	border:1px solid #000;*/
+}
+.fother_yazilar1_div{
+	width:210px;
+	height:344px;
+	float:left;
+	margin-top:45px;
+/*	border:1px solid #000;*/
+}
+.fother_yazi_baslik{
+	width:auto;
+	height:auto;
+	font-size: 16px;
+    font-weight: 700;
+	color: #cbcbcb;
+/*	border:1px solid #000;*/
+}
+.fother_yazi1{
+	width:auto;
+	height:auto;
+	color: #cbcbcb;
+	font-size: 12px;
+	padding:4px;
+	margin-top:15px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.fother_yazi1:hover{
+	opacity: 0.4;
+}
+.fother_yazi2{
+	width:auto;
+	height:auto;
+	color: #cbcbcb;
+	font-size: 12px;
+	padding:4px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.fother_yazi2:hover{
+	opacity: 0.4;
+}
+.fother_yazi3{
+	width:auto;
+	height:auto;
+	color: #cbcbcb;
+	font-size: 12px;
+	padding:4px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.fother_yazi3:hover{
+	opacity: 0.4;
+}
+.fother_yazi4{
+	width:auto;
+	height:auto;
+	color: #cbcbcb;
+	font-size: 12px;
+	padding:4px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.fother_yazi4:hover{
+	opacity: 0.4;
+}
+.fother_yazi5{
+	width:auto;
+	height:auto;
+	color: #cbcbcb;
+	font-size: 12px;
+	padding:4px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.fother_yazi5:hover{
+	opacity: 0.4;
+}
+.fother_yazi6{
+	width:auto;
+	height:auto;
+	color: #cbcbcb;
+	font-size: 12px;
+	padding:4px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.fother_yazi6:hover{
+	opacity: 0.4;
+}
+.fother_yazi7{
+	width:auto;
+	height:auto;
+	color: #cbcbcb;
+	font-size: 12px;
+	padding:4px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.fother_yazi7:hover{
+	opacity: 0.4;
+}
+.fother_yazi8{
+	width:auto;
+	height:auto;
+	color: #cbcbcb;
+	font-size: 12px;
+	padding:4px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.fother_yazi8:hover{
+	opacity: 0.4;
+}
+.fother_yazi9{
+	width:auto;
+	height:auto;
+	color: #cbcbcb;
+	font-size: 12px;
+	padding:4px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.fother_yazi9:hover{
+	opacity: 0.4;
+}
+.fother_yazilar3_div{
+	width:280px;
+	height:344px;
+	float:left;
+	margin-top:45px;
+/*	border:1px solid #000;*/
+}
+.fother_yazilar4_div{
+	width:255px;
+	height:344px;
+	float:left;
+	margin-top:45px;
+/*	border:1px solid #000;*/
+}
+.fother_yazilar5_div{
+	width:216px;
+	height:344px;
+	float:left;
+	margin-top:45px;
+/*	border:1px solid #000;*/
+}
+.fother_yazi_baslik5{
+	width:auto;
+	height:auto;
+	font-size: 15px;
+    font-weight: 700;
+	color: #cbcbcb;
+/*	border:1px solid #000;*/
+}
+.fother_resim_sol{
+	width:90px;
+	height:54px;
+	float:left;
+	padding:2px;
+	padding-top: 4px;
+	padding-left:4px;
+	padding-right: 5px;
+/*	border:1px solid #000;*/
+}
+.fother_resim_uzun{
+	width:192px;
+	height:54px;
+	padding-top: 4px;
+	padding-left:4px;
+/*	border:1px solid #000;*/
+}
+.top1_genel_divi{
+	width:350px;
+	height:65px;
+	margin:auto;
+	margin-left:500px;
+/*    border:1px solid #000;*/
+}
+.top1{
+	width:19px;
+	height:19px;
+	padding: 10px;
+	float:left;
+	margin-right:5px;
+	border-radius: 50%;
+	border-style: solid;
+	background-color: rgba(203,203,203,0);
+	background-color: rgba(203,203,203,0);
+	border-color: #cbcbcb;
+}
+/*hover resimler basladı*/
+.top_resim1{
+	width:19px;
+	float: left;
+	height:19px;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-image: url("../images/fother_facebook.png");
+/*	border:1px solid #000;*/
+}
+.top_resim1:hover{
+	background-repeat: no-repeat;
+	background-image: url("../images/fother_facebook_hover.png");
+}
+/*hover resimler bitti*/
+.top_resim2{
+	width:19px;
+	height:19px;
+	float: left;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-image: url("../images/fother_twiter.png");
+/*	border:1px solid #000;*/
+}
+.top_resim2:hover{
+	background-repeat: no-repeat;
+	background-image: url("../images/fother_twiter_hover.png");
+}
+.top_resim3{
+	width:19px;
+	height:20px;
+	float: left;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-image: url("../images/fother_instagram.png");
+/*	border:1px solid #000;*/
+}
+.top_resim3:hover{
+	background-repeat: no-repeat;
+	background-image: url("../images/fother_instagram_hover.png");
+}
+.top_resim4{
+	width:19px;
+	height:19px;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	float: left;
+	background-image: url("../images/fother_youtbe.png");
+/*	border:1px solid #000;*/
+}
+.top_resim4:hover{
+	background-repeat: no-repeat;
+	background-image: url("../images/fother_youtbe_hover.png");
+}
+.fother_alt_ana_div{
+	width:100%px;
+	height:73px;
+	margin: auto;
+	background-color: #404040;
+    border:1px solid #404040;
+}
+.fother_alt_govde{
+	width:1220px;
+	height:50px;
+	margin: auto;
+   /*border:1px solid #000;*/
+}
+.fother_alt_yazi{
+	width:210px;
+	height:30px;
+	margin-top:25px;
+	margin-left:505px;
+	font-size: 11px;
+    font-weight: 500;
+	color:#bcbcbc;
+    font-style: normal;
+/*	border:1px solid #000;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+body{
+	width:100%;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+	margin:0px;
+	background-color: #fff;
+}
+a{text-decoration: none;
+	color:#000;
+}
+.hizalama_bitir{clear: both;}
+
+
+
+.politika_ana_div{
+	width:100%px;
+	height:130px;
+	margin: auto;
+	background-color: #f5f5f5;
+	border:1px solid #f5f5f5;
+}
+.politika_govde{
+	width:1220px;
+	height:125px;
+	margin: auto;
+/*	border:1px solid #000;*/
+}
+.politika_yazi{
+	width:450px;
+	height:29px;
+	font-weight: 600;
+	font-size: 14.5px;
+	float:left;
+	margin-top:33px;
+	color: #df922f;
+/*	border:1px solid #000;*/
+}
+.ev{
+	width:13px;
+	height:13px;
+	float:left;
+	margin-top:8px;
+	/*border:1px solid #000;*/
+}
+.ev:hover{
+	background-image: url("resim/ev_home.png");
+	background-repeat: no-repeat;
+}
+.yan_ok_evin{
+	width:13px;
+	height:13px;
+	float:left;
+	margin-left: 3px;
+	margin-top:8px;
+	color:#c6c6c6;
+/*	border:1px solid #000;*/
+}
+.uluslararasi_yazi{
+	width:260px;
+	height:20px;
+	float:left;
+	margin-top:8px;
+	font-weight: 200;
+	font-size: 12px;
+	color: #000;
+	opacity: 0.6;
+	cursor:pointer;
+/*	border:1px solid #000;*/
+}
+.uluslararasi_yazi:hover{
+	color: #df922f;
+}
+.akademik_tavim_govde{
+	width:1220px;
+	height:auto;
+	margin: auto;
+	margin-top:40px;
+/*	border:1px solid #000;*/
+}
+.seneto_uyeleri{
+	width:auto;
+	height:auto;
+	float:left;
+	color: #333;
+	font-weight: 600;
+	font-size: 18px;
+/*	border:1px solid #000;*/
+}
+.solrenk_yazilar{
+	width:600px;
+	height:44px;
+	float:left;
+	background-color: #f0f0f0;
+/*	border:1px solid #000;*/
+}
+.sagrenk_yazilar{
+	width:600px;
+	height:44px;
+	float:left;
+	background-color: #f0f0f0;
+/*	border:1px solid #000;*/
+}
+.sol_yazi{
+	width:auto;
+	height:auto;
+	float:left;
+	margin-top:10px;
+	color: #333;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.sol_yazi:hover{
+	color: #df922f;
+}
+.sag_yazi{
+	width:auto;
+	height:auto;
+	float:left;
+	margin-top:10px;
+	color: #333;
+/*	border:1px solid #000;*/
+}
+.sol_yazilar{
+	width:600px;
+	height:44px;
+	float:left;
+/*	background-color: #f0f0f0;*/
+/*	border:1px solid #000;*/
+}
+.sag_yazilar{
+	width:600px;
+	height:44px;
+	float:left;
+/*	background-color: #f0f0f0;*/
+/*	border:1px solid #000;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

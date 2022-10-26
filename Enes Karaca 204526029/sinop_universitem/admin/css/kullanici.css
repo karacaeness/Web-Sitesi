@@ -1,0 +1,360 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width: 100%px;
+	height: 100%px;
+	margin: auto;
+background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/*	border: 1px solid #000;*/
+}
+
+.hizalama_bitir{clear:both;}
+
+a{text-decoration:none;
+	color: #535353;
+}
+/*burası banner farklı değişim rengi başlangıç*/
+.banner_ust_govde
+{
+	width:1220px;
+	height:35px;
+	margin: auto;
+/*	border:1px solid red;*/
+}
+.banner_ust{
+	width: 100%px;
+	height:36px;
+	margin: auto;
+background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*	border:1px solid #000;*/
+	
+}
+.bayrak{
+	width:16px;
+	height:11px;
+	float:left;
+	margin-top: 10px;
+/*	border:1px solid #000;*/
+}
+.turkce{
+	width:16px;
+	height:11px;
+	float:left;
+	margin-top: 10px;
+	font-family:inherit;
+	font-size: 13.50px;
+	color:#fff;
+}
+.asagiokk{
+	width:7px;
+	height:8px;
+	float:left;
+	margin-top:12px;
+	margin-left:44px;
+/*  border:1px solid #000;*/
+}
+.ataturk{
+	width:77px;
+	height:34px;
+	float:right;
+/*	border:1px solid #000;*/
+}
+.banner_alt{
+	width: 100%px;
+	height:85px;
+	margin: auto;
+background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*border:1px solid #000;*/
+}
+.banner_alt_govde
+{
+	width:1220px;
+	height:84px;
+	margin: auto;
+	/*border:1px solid #000;*/
+}
+.logo_ve_yazi_div{
+	width:254px;
+	height:80px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.logo{
+	width:80px;
+	height:80px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.sinop_uni_yazi{
+	width:158px;
+	height:64px;
+	float:left;
+	margin-top:15px;
+	font-weight: bold;
+	font-size:22px;
+	color: #fff;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.sinop_uni_yazi:hover{
+	color:#dd9933;
+}
+.banner_menu_yazilar_divimiz{
+	width:900px;
+	height:80px;
+	float:left;
+/*	border:1px solid #000;*/
+}
+.menuler:hover{
+	color:#dd9933;
+}
+.menuler{
+	width:auto;
+	height:auto;
+	padding:7px;
+	font-weight: 700px;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-top:30px;
+	font-family: Titillium Web;
+	font-size:16px;
+	color: #fff;
+	float:left;
+	cursor: pointer;
+	text-align: center;
+/*  border:1px solid #000;*/
+}
+
+
+.uc_cizgi{
+	width:14px;
+	height:14px;
+	float:left;
+	margin-top:40px;
+	padding:4px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-image: url("../admin_images/uc_cizgi.png");
+	/*border:1px solid #000;*/
+}
+.uc_cizgi:hover{
+	background-repeat: no-repeat;
+	background-image: url("../admin_images/uc_cizgi_hover.png");
+}
+.arama_butonu{
+	width:13px;
+	height:13px;
+	float:left;
+	margin-left: 8px;
+	margin-top:40px;
+	padding:4px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-image: url("../admin_images/buyutec.png");
+/*	border:1px solid #000;*/
+}
+.arama_butonu:hover{
+	background-repeat: no-repeat;
+	background-image: url("../admin_images/buyutec_hover.png");
+}
+.cikis{
+	width:21px;
+	height:21px;
+	padding:7px;
+	font-weight: 700px;
+	margin-left: 15px;
+	margin-top:30px;
+	font-family: Titillium Web;
+	font-size:16px;
+	color: #fff;
+	float:left;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.cikis:hover{
+	color:#dd9933;
+}
+.ucgen_kirmizim{
+	width:50px;
+	height:50px;
+	float:left;
+	padding:4px;
+	margin-left: 5px;
+/*	margin-right: -90px;*/
+	margin-top:16px;
+	cursor: pointer;
+/*  border:1px solid #000;*/
+}
+.yuvarlak_beyaz{
+	width:50px;
+	height:50px;
+	float:left;
+	padding:4px;
+	margin-top:16px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+
+/*burası banner farklı değişim rengi bittiş*/
+
+
+.kullanici_bigileri_genel_div{
+	width: 500px;
+	height: 195px;
+	margin: auto;
+/*	border: 1px solid #000;*/
+}
+
+.kullanici_bilgisi{
+	width: 130px;
+	height: auto;
+	margin: auto;
+	margin-top:20px;
+	font-weight: 600;
+	font-size:16px;
+	color: #5E0B0D;
+	text-align: center;
+	margin-bottom: 30px;
+/*	border: 1px solid #000;*/
+}
+.kullanici_adi{
+	width: 120px;
+	height: auto;
+	margin: auto;
+	color: #fff;
+	font-size:15px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	float: left;
+	text-align: center;
+	margin-left: 130px;
+/*	border: 1px solid #000;*/
+}
+.kullanici_adi_inputt{
+	width: 140px;
+	height: auto;
+	float: left;
+	border-radius: 10px;
+	margin-left: 15px;
+}
+.kullanici_adi_inputt:hover{
+	box-sizing:border-box;
+}
+.kullanici_sifre{
+	width: 120px;
+	height: auto;
+	margin: auto;
+	color: #fff;
+	font-size:15px;
+	font-weight: 600;
+	text-align: center;
+	margin-top:10px;
+	margin-bottom: 10px;
+	float: left;
+	margin-left: 130px;
+/*	border: 1px solid #000;*/
+}
+.kullanici_sifre_input{
+	width: 140px;
+	height: auto;
+	float: left;
+	border-radius: 10px;
+	margin-top:10px;
+	margin-left: 15px;
+}
+.kullanici_sifre_input:hover{
+	box-sizing:border-box;
+}
+.kullanici_durumum{
+	width: auto;
+	height: auto;
+/*	margin: auto;*/
+	color: #fff;
+	font-size:15px;
+	font-weight: 600;
+	text-align: center;
+	margin-top:10px;
+	margin-bottom: 10px;
+	float: left;
+	margin-left: 130px;
+/*	border: 1px solid #000;*/
+}
+.aktifpasif_olayi_input{
+	width:auto;
+	height: 20px;
+	float: left;
+	margin-top:10px;
+	margin-left: 22px;
+}
+
+.kaydet{
+	width: auto;
+	height: auto;
+	margin: auto;
+	color: #000;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top:10px;
+	float: left;
+	margin-left: 215px;
+  /*border: 1px solid #000;*/
+}
+.kaydet_input:hover{
+    transition-duration: 1s;
+	background-color:#514D56;
+		
+}
+.kaydet_input{
+	width: 100px;
+	height: auto;
+	border-radius: 5px;
+}
+.divmenu_govde{
+	width: 800px;
+	height: auto;
+	margin: auto;
+/*	border: 1px solid #000;*/
+}
+.menu_baslik{
+	width: 800px;
+	height: 30px;
+	margin: auto;	
+/*	border: 1px solid #000;*/
+}
+.baslik_menum{
+	width: auto;
+	height: auto;
+	float: left;
+	margin-right: 25px;
+	color: #000;
+	padding: 5px;
+/*	border: 1px solid #000;*/
+}
+.islemlerim_kismi{
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 150px;
+	color: #000;
+	padding: 5px;
+/*	border: 1px solid #000;*/
+}
+.kullanici_durum{
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 120px;
+	color: #000;
+	padding: 5px;
+/*	border: 1px solid #000;*/
+}
+
+

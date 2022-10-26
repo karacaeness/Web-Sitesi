@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	width:100%;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+	margin:0px;
+	background-color: #fff;
+}
+
+.hizalama_bitir{clear:both;}
+
+a{text-decoration:none;
+	color: #535353;
+}
+
+
+
+.banner_ust_govde
+{
+	width:1220px;
+	height:35px;
+	margin: auto;
+/*	border:1px solid red;*/
+}
+.banner_ust{
+	width: 100%px;
+	height:36px;
+	margin: auto;
+	background-color:#df922f;
+/*	border:1px solid #000;*/
+	
+}
+.bayrak{
+	width:16px;
+	height:11px;
+	float:left;
+	margin-top: 10px;
+/*	border:1px solid #000;*/
+}
+.turkce{
+	width:16px;
+	height:11px;
+	float:left;
+	margin-top: 10px;
+	font-family:inherit;
+	font-size: 13.50px;
+	color:#fff;
+}
+.asagiokk{
+	width:7px;
+	height:8px;
+	float:left;
+	margin-top:12px;
+	margin-left:44px;
+/*  border:1px solid #000;*/
+}
+.ataturk{
+	width:77px;
+	height:34px;
+	float:right;
+/*	border:1px solid #000;*/
+}
+.banner_alt{
+	width: 100%px;
+	height:85px;
+	margin: auto;
+	background-color:#ffffff;
+	/*border:1px solid #000;*/
+}
+.banner_alt_govde
+{
+	width:1220px;
+	height:84px;
+	margin: auto;
+	/*border:1px solid #000;*/
+}
+.logo_ve_yazi_div{
+	width:254px;
+	height:80px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.logo{
+	width:80px;
+	height:80px;
+	float:left;
+	/*border:1px solid #000;*/
+}
+.sinop_uni_yazi{
+	width:158px;
+	height:64px;
+	float:left;
+	margin-top:15px;
+	font-weight: bold;
+	font-size:22px;
+	color: #333;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.sinop_uni_yazi:hover{
+	color:#dd9933;
+}
+.banner_menu_yazilar_divimiz{
+	width:950px;
+	height:80px;
+	float:left;
+/*	border:1px solid #000;*/
+}
+.menuler:hover{
+	color:#dd9933;
+}
+.menuler{
+	width:auto;
+	height:auto;
+	padding:7px;
+	font-weight: 700px;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-top:30px;
+	font-family: Titillium Web;
+	font-size:16px;
+	color: #464646;
+	float:left;
+	cursor: pointer;
+	text-align: center;
+/*  border:1px solid #000;*/
+}
+
+
+.uc_cizgi{
+	width:14px;
+	height:14px;
+	float:left;
+	margin-top:40px;
+	padding:4px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-image: url("../admin_images/uc_cizgi.png");
+	/*border:1px solid #000;*/
+}
+.uc_cizgi:hover{
+	background-repeat: no-repeat;
+	background-image: url("../admin_images/uc_cizgi_hover.png");
+}
+.arama_butonu{
+	width:13px;
+	height:13px;
+	float:left;
+	margin-left: 8px;
+	margin-top:40px;
+	padding:4px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-image: url("../admin_images/buyutec.png");
+/*	border:1px solid #000;*/
+}
+.arama_butonu:hover{
+	background-repeat: no-repeat;
+	background-image: url("../admin_images/buyutec_hover.png");
+}
+.cikis{
+	width:20px;
+	height:21px;
+	padding:7px;
+	font-weight: 700px;
+	margin-left: 15px;
+	margin-top:30px;
+	font-family: Titillium Web;
+	font-size:15px;
+	color: #464646;
+	float:left;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+.cikis:hover{
+	color:#dd9933;
+}
+.ucgen_kirmizim{
+	width:50px;
+	height:50px;
+	float:left;
+	padding:4px;
+	margin-left:10px;
+/*	margin-right: -90px;*/
+	margin-top:16px;
+	cursor: pointer;
+/*  border:1px solid #000;*/
+}
+.yuvarlak_beyaz{
+	width:50px;
+	height:50px;
+	float:left;
+	padding:4px;
+	margin-top:16px;
+	cursor: pointer;
+/*	border:1px solid #000;*/
+}
+
+
+
+.ana_govde{
+/*	border: 1px solid #000;*/
+	width: 1220px;
+	height: auto;
+	margin: auto;
+	
+}
+
+.ic_body{
+	width: 1220px;
+	height: auto;
+	margin-top: 0px;
+/*	background-color: #B3B2B2;*/
+/*	border: 1px solid #000;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

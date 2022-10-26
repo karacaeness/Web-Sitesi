@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width: 100%px;
+	height: 100%px;
+	margin: auto;
+background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/*	border: 1px solid #000;*/
+}
+.hizalama_bitir{clear:both;}
+
+a{text-decoration:none;
+	color:#000;
+}
+
+
+.giris_ana_divim{
+/*	border: 1px solid #000;*/
+	border-radius: 12px;
+	width: 460px;
+	height: 285px;
+	width: 100%px;
+	height: 100%px;
+	margin: auto;
+	box-shadow: 2px 5px 10px 4px rgb(0 0 0 / 92%);
+background: #003973;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+
+/*	border: 1px solid #000;*/
+	margin: auto;
+	margin-top: 85px;
+	margin-bottom: 50px;
+	padding: 40px 43px 27px;
+}
+.admine_giris_yapin{
+/*	border: 1px solid #000;*/
+	width: 221px;
+	height: 24px;
+	margin: auto;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+.admin_giris_ekrani_logo{
+/*	border: 1px solid #000;*/
+	width: 65px;
+	height: 65px;
+	margin-top:-30px;
+	margin:auto;
+	text-align: center;
+	cursor: pointer;
+}
+.giris_yapin{
+/*	border: 1px solid #000;*/
+	width: auto;
+	height: auto;
+	font-size: 20px;
+	color: #fff;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.kullanici_girisi{
+    border: 1px solid hsla(0,0%,60.4%,.5);
+	border: 1px solid hsla(0,0%,60.4%,.5);
+	border-radius: 2px;
+	border-radius: 2px;
+	width: 344px;
+	height: 45px;
+	margin: auto;
+	font-family: Roboto,sans-serif;
+    font-size: 16px;
+    background: #fff;
+    color: #000;
+	margin-bottom: 20px;
+}
+
+.e_mail{
+	border: 1px solid hsla(0,0%,60.4%,.5);
+	border-radius: 8px;
+	width: 344px;
+	height: 45px;
+	margin: auto;
+	color: #000;
+	font-weight: 400;
+	font-size: 16px;
+	
+}
+.e_mail:hover{
+	box-shadow: 2px 5px 10px 4px rgb(0 0 0 / 64%);
+	
+}
+.sifre_girisi{
+    border: 1px solid hsla(0,0%,60.4%,.5);
+	border-radius: 2px;
+	width: 344px;
+	height: 45px;
+	margin: auto;
+	font-family: Roboto,sans-serif;
+    font-size: 16px;
+    background: #fff;
+    color: #000;
+	cursor: pointer;
+}
+.sifre{
+	border: 1px solid hsla(0,0%,60.4%,.5);
+	border-radius: 8px;
+	width: 344px;
+	height: 45px;
+	margin: auto;
+	font-size: 16px;
+	cursor: pointer;
+}
+.sifre:hover{
+	box-shadow: 2px 5px 10px 4px rgb(0 0 0 / 64%);
+}
+.sifremi_unuttum{
+/*	border: 1px solid #000;*/
+	width: 105px;
+	height: 17px;
+	float: right;
+	font-family: Roboto,sans-serif;
+    font-size: 14px;
+	color: #9a9a9a;
+	margin-top: 15px;
+	text-decoration: underline;
+	margin-right: 30px;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+.giris_dugme{
+    border: 1px solid #E5E5BE;
+	width: 365px;
+	height: 45px;
+	margin: auto;
+	margin-left:50px;
+	border-radius: 10px;
+	font-family: Roboto,sans-serif;
+background: #003973;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*  color: #FFFFFF;*/
+	margin-top: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+.giris_dugme_input{
+	color: #FFFFFF;
+	box-shadow: 2px 5px 10px 4px rgb(0 0 0 / 64%);
+background: #003973;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.giris_dugme_input:hover{
+	box-shadow: 2px 5px 10px 4px rgb(0 0 0 / 130%);
+}
+.giris_dugme:hover{
+	box-shadow: 2px 5px 10px 4px rgb(0 0 0 / 64%);
+}
+input{
+	border: 1px solid #5F5F5F;
+	border-radius: 8px;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	margin: auto;
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: 8px;
+	cursor: pointer;
+
+}
+
+
+
+
